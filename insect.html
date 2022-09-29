@@ -19,7 +19,29 @@
         crossorigin="anonymous"></script>
         </head>
 <body>
- 
+  <!--part 8-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#InsectNavbarContent" aria-controls="InsectNavbarContent" 
+    aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggle-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="InsectNavbarContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="insects.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+ <!--part 3-->
  <div class ="container"> 
 <div class ="row">
 <div class="col-sm-2">
@@ -79,7 +101,7 @@
     <img class="img-thumbnail" src="honeybee.jpg" alt="Holly Leaf Miner" width="300">
 </div>
 <br><br>
-
+<!--part 5-->
 <div class="container">
   <table class="table table-bordered table-info table-striped table-hover table-responsive"
   style="text-align: center;">
@@ -146,9 +168,125 @@
           </tr>
       </tbody>
   </table>
+  </div>
+  <br>
+  <!--part 6-->
+  <lable> Button </lable>
+  <div style="padding:12px 16px;">
+<button type="button" class="btn btn-warning">I</button>
+  <button type="button" class="btn btn-danger">S</button>
+  <button type="button" class="btn btn-primary">H</button>
+  <button type="button" class="btn btn-secondary">A</button>
+  <button type="button" class="btn btn-success">A</button>
+          <button type="button" class="btn btn-success">R</button>
+          <button type="button" class="btn btn-success">A</button>
 </div>
 <br>
 
+<lable> button groups </lable>
+<div class ="container btn-toolbar">
+<div class="btn-group" role="group" aria-label="insects ">
+<button type="button" class="btn btn-primary btn-success">I</button>
+<button type="button" class="btn btn-primary btn-success">S</button>
+<button type="button" class="btn btn-primary btn-success">R</button></div>
+<br>
+<div class="btn-group" role="group" aria-label="Basic mixed styles example">
+<button type="button" class="btn btn-warning">A</button>
+<button type="button" class="btn btn-warning">A</button>
+<button type="button" class="btn btn-danger ">H</button>
+</div>
+</div>
+<br>
+<!--part 7-->
+<div class="container">
+  <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" type="button">
+          Menu
+      </button>
+      <br>
+      <div class="dropdown-menu">
+          <a class="dropdown-item" href="basic.html">Basic</a>
+          <a class="dropdown-item" href="advanced.html">Advanced</a>
+      </div>
+  </div>
+</div>
+<br>
+<!--part 9-->
+<div class="container">
+  <form action="">
+      <div class="form-group">
+          <label for="InsectEmail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="InsectEmail" 
+          aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="form-group">
+          <label for="InsectInput" class="form-label">Insect</label>
+          <input type="text" class="form-control" id="InsectInput" 
+          placeholder="Enter your insect">
+      </div>
+      <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="InsectCheck">
+          <label class="form-check-label" for="InsectCheck">Login to know about the  insects ?</label>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
+  </form>
+</div>
+<br>
+<!-- Bonus -->
+<div class="container">
+  <div class="row">
+      <div class="col-md">
+          <div class="card" style="width: 18rem;">
+              <img src="aphids.jpg" class="card-img-top" alt="aphids">
+              <div class="card-body">
+                  <h5 class="card-title">Locust</h5>
+                  <p class="card-text">
+                      Aphids are small sap-sucking insects and members of the superfamily Aphidoidea. 
+                      Common names include greenfly and blackfly, although individuals within a species can vary widely in color. 
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Aphid" class="btn btn-primary">
+                      Read More
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md">
+          <div class="card" style="width: 18rem;">
+              <img src="roaches.jpg" class="card-img-top" alt="roaches">
+              <div class="card-body">
+                  <h5 class="card-title">Cuckoo Bee</h5>
+                  <p class="card-text">
+                      Thesecockroach is the largest species of common cockroach, and often considered a pest. 
+                      In certain regions 
+                      it is colloquially known as the waterbug
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Cockroach" class="btn btn-primary">
+                      Read More
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md">
+          <div class="card" style="width: 18rem;">
+              <img src="honeybee.jpg" class="card-img-top" alt="honeybee">
+              <div class="card-body">
+                  <h5 class="card-title">Holly Leaf Miner</h5>
+                  <p class="card-text">
+                    Honey bees, Apis mellifera, are a social, beneficial insect and considered the most important pollinator to food systems.
+                       Honey bee workers are approximately 15mm in length. They are fuzzy bodied insects,
+                       which helps with their ability to pollinat
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Honey_bee"
+                  class="btn btn-primary">
+                      Read More
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<br>
 </body>
 </html>
 
